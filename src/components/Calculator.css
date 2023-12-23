@@ -1,0 +1,54 @@
+.calPage {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  .calculator {
+    display: flex;
+    max-width: 320px;
+    align-self: center;
+    flex-wrap: nowrap;
+    padding: 0 90px;
+  }
+  
+  .calculator__display {
+    padding: 10px;
+    font-size: 1.3em;
+    text-align: right;
+    background-color: grey;
+    overflow: hidden;
+  }
+  
+  .calculatorUI {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    flex: 0 1 25%;
+    height: 70px;
+    color: #111;
+    font-size: 2em;
+    background: #e0e0e0;
+    border: 1px solid #c7c7c7;
+  }
+  
+  button:hover {
+    border: 2px solid #b42e10;
+  }
+  
+  .btn--opaque {
+    background-color: #f5913e;
+  }
+  
+  .btn--large {
+    flex: 0 1 50%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .calculator {
+      padding: 0;
+    }
+  }
+  

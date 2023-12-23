@@ -1,0 +1,36 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'arial';
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  .link {
+    list-style: none;
+    font-size: 1.8rem;
+  }
+  
+  .links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .navBar {
+      display: block;
+    }
+  }
+  

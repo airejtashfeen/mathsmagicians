@@ -8,13 +8,13 @@ const Navbar = () => (
     <Header />
     <ul className="links">
       <li className="link">
-        <Link to="/">Home</Link>
+        <Link to="/">Rockets</Link>
       </li>
       <li className="link">
-        <Link to="/Calculator">Calculator</Link>
+        <Link to="/missions">Missions</Link>
       </li>
       <li className="link">
-        <Link to="/Quote">Quote</Link>
+        <Link to="/myProfile">My Profile</Link>
       </li>
     </ul>
   </nav>
